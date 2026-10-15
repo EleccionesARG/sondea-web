@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f8fc"/>
+      <stop offset="1" stop-color="#e9ebf7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+
+  <!-- barras decorativas esquinas -->
+  <g opacity="0.12">
+    <rect x="60" y="300" width="40" height="120" rx="18" fill="#4338ca"/>
+    <rect x="120" y="240" width="40" height="180" rx="18" fill="#f97316"/>
+    <rect x="920" y="1500" width="40" height="180" rx="18" fill="#f97316"/>
+    <rect x="980" y="1560" width="40" height="120" rx="18" fill="#4338ca"/>
+  </g>
+
+  <!-- wordmark arriba (dentro de zona segura) -->
+  <g transform="translate(400,330)">
+    <rect x="0" y="26" width="16" height="38" rx="7" fill="#4338ca"/>
+    <rect x="25" y="13" width="16" height="51" rx="7" fill="#f97316"/>
+    <rect x="50" y="0" width="16" height="64" rx="7" fill="#4338ca"/>
+    <text x="92" y="56" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="64" font-weight="bold" fill="#1b1f3b" letter-spacing="-1">Sondea</text>
+  </g>
+
+  
+  <g transform="translate(440,520)">
+    <rect x="0" y="110" width="44" height="90" rx="20" fill="#4338ca" opacity="0.75"/>
+    <rect x="78" y="55" width="44" height="145" rx="20" fill="#f97316"/>
+    <rect x="156" y="0" width="44" height="200" rx="20" fill="#4338ca"/>
+  </g>
+
+  <text x="540" y="880" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="88" font-weight="bold" fill="#1b1f3b">Los resultados,</text>
+<text x="540" y="984" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="88" font-weight="bold" fill="#1b1f3b">siempre acá</text>
+  <text x="540" y="1128" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="48" font-weight="normal" fill="#4a4f6e">Datos claros,</text>
+<text x="540" y="1194" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="48" font-weight="normal" fill="#4a4f6e">sin letra chica</text>
+  
+
+  <!-- pill sondea.org abajo, dentro de zona segura -->
+  <rect x="390" y="1520" width="300" height="84" rx="42" fill="#4338ca"/>
+  <text x="540" y="1575" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff">sondea.org</text>
+</svg>
